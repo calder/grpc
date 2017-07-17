@@ -1532,6 +1532,7 @@ grpc_cc_library(
     hdrs = [
         "src/cpp/ext/proto_server_reflection.h",
     ],
+    alwayslink = 1,
     language = "c++",
     public_hdrs = [
         "include/grpc++/ext/proto_server_reflection_plugin.h",
